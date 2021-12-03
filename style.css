@@ -2,6 +2,7 @@ body{
   background-color: rgb(252, 217, 204);
   background: url('https://i.pinimg.com/originals/f9/af/7c/f9af7c95a86135eaca83d2367603c4bf.gif');
 }
+/* date */
  #showingDate{
   margin:1rem auto;
   text-align: center;
@@ -11,6 +12,7 @@ body{
   font-size: 2.3rem;
   border-radius: 12px;
 }
+/* main heading */
 .main-heading {
   margin: auto;
   text-align: center;
@@ -25,6 +27,8 @@ body{
   font-size: 1.9rem;
   font-family:cursive;
 }
+
+/* main box */
 #box {
   max-width: 500px;
   margin: 2rem auto;
@@ -43,6 +47,8 @@ body{
 img {
   margin: 2rem;
 }
+
+/* the toggle button */
 .btn {
   display: block;
   padding: 10px 20px;
@@ -59,6 +65,7 @@ img {
   background-color: coral;
   color: #333;
 }
+
 .day {
   background-color: rgb(253, 253, 103);
 }
