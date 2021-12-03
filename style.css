@@ -1,0 +1,67 @@
+body{
+  background-color: rgb(252, 217, 204);
+  background: url('https://i.pinimg.com/originals/f9/af/7c/f9af7c95a86135eaca83d2367603c4bf.gif');
+}
+ #showingDate{
+  margin:1rem auto;
+  text-align: center;
+  padding: 1rem;
+  background-color:lightgreen;
+  max-width: 400px;  
+  font-size: 2.3rem;
+  border-radius: 12px;
+}
+.main-heading {
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+  background-color:lightcoral;
+  max-width: 400px;
+  border-radius: 12px;
+  font-family: cursive;
+
+}
+#heading{
+  font-size: 1.9rem;
+  font-family:cursive;
+}
+#box {
+  max-width: 500px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  height: 100%;
+ transition: all;
+ cursor: pointer;
+
+}
+#box:hover{
+  transform: scale(1.1);
+  transition: transform 0.10s ease-in;
+}
+img {
+  margin: 2rem;
+}
+.btn {
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color:crimson ;
+    color: #fff;
+  margin: 3rem auto;
+  transition: all 0.1s ease;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: coral;
+  color: #333;
+}
+.day {
+  background-color: rgb(253, 253, 103);
+}
+.night {
+  background-color: rgb(180, 186, 192);
+}
