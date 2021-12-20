@@ -24,10 +24,7 @@ else{
      box.classList.remove("night");
     box.classList.add("day");
      heading.textContent="Goodmorning !!"
-
-}
-}
-
+}}
 
 var today = new Date();
 
